@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-dark font-body overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .noise-overlay {
+    /* Using SVG filter injected in index.html instead, just an optional class */
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 50;
+    mix-blend-mode: overlay;
+    opacity: 0.05;
+  }
+  
+  .magnetic-btn {
+    @apply relative overflow-hidden transition-all duration-300 ease-magnetic active:scale-95 hover:scale-[1.03];
+  }
+
+  .magnetic-link {
+    @apply transition-transform duration-300 hover:-translate-y-[1px];
+  }
+}
+
+/* Custom scrollbar to match the high end feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/40;
+}
