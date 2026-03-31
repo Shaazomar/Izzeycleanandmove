@@ -12,7 +12,7 @@ export const translations = {
     // Hero
     heroTitle: "Standard.",
     heroDesc: "Professional cleaning, transport, and complete property management for those who demand uncompromising quality. All-in-one house services driven by modern equipment and radical reliability.",
-    heroCTA: "Initiate Protocol",
+    heroCTA: "Book Now",
 
     // Features
     featBadge: "Functional Artifacts",
@@ -117,7 +117,7 @@ export const translations = {
     // Hero
     heroTitle: "Standard.",
     heroDesc: "Professionelle Reinigung, Transport und komplettes Immobilienmanagement für alle, die kompromisslose Qualität verlangen. All-in-One-Hausdienstleistungen, angetrieben durch moderne Ausrüstung und absolute Zuverlässigkeit.",
-    heroCTA: "Protokoll Starten",
+    heroCTA: "Jetzt Buchen",
 
     // Features
     featBadge: "Funktionale Artefakte",
