@@ -99,28 +99,24 @@ export default function Booking() {
 
         {/* Left: Contact Info */}
         <div className="flex flex-col justify-center booking-elem text-dark">
-          <p className="font-mono text-sm tracking-widest text-primary uppercase mb-6 booking-elem">{t('bookBadge')}</p>
+          <p className="font-mono text-sm tracking-widest text-primary uppercase mb-6 booking-elem">{t('contactTitle')}</p>
           <h2 className="font-drama italic text-6xl md:text-8xl leading-none mb-8 booking-elem" dangerouslySetInnerHTML={{__html: t('bookTitle')}}></h2>
           <p className="font-body text-xl opacity-80 mb-12 max-w-md booking-elem">
             {t('bookDesc')}
           </p>
 
-          <div className="mt-auto grid grid-cols-2 gap-8 font-mono text-sm booking-elem">
+          <div className="mt-auto grid grid-cols-1 sm:grid-cols-2 gap-8 font-mono text-sm booking-elem">
             <div>
-              <p className="text-dark/50 mb-1">{t('bookEmail')}</p>
-              <a href="mailto:Izzhameed.ug@gmail.com" className="font-bold border-b border-dark/20 hover:border-dark transition-colors truncate block">Izzhameed.ug@gmail.com</a>
+              <p className="text-dark/50 mb-1">EMAIL</p>
+              <a href="mailto:izzhameed.ug@gmail.com" className="font-bold border-b border-dark/20 hover:border-dark transition-colors truncate block">izzhameed.ug@gmail.com</a>
             </div>
             <div>
-              <p className="text-dark/50 mb-1">{t('bookPortal')}</p>
-              <a href="#" className="font-bold border-b border-dark/20 hover:border-dark transition-colors">{t('bookPortalLink')}</a>
+              <p className="text-dark/50 mb-1">LOCATION</p>
+              <span className="font-bold border-b border-dark/20 hover:border-dark transition-colors">Berlin, Germany</span>
             </div>
-            <div>
-              <p className="text-dark/50 mb-1">{t('bookPhone1')}</p>
-              <a href="tel:+4917621709991" className="font-bold border-b border-dark/20 hover:border-dark transition-colors">+49 176 2170 9991</a>
-            </div>
-            <div>
-              <p className="text-dark/50 mb-1">{t('bookPhone2')}</p>
-              <a href="tel:+4917684429916" className="font-bold border-b border-dark/20 hover:border-dark transition-colors">+49 176 8442 9916</a>
+            <div className="sm:col-span-2">
+              <p className="text-dark/50 mb-1">WHATSAPP</p>
+              <a href="https://wa.me/4917621709991" target="_blank" rel="noreferrer" className="font-bold border-b border-dark/20 hover:border-dark transition-colors">+49 176 2170 9991</a>
             </div>
           </div>
         </div>

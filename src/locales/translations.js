@@ -10,55 +10,68 @@ export const translations = {
     navBook: "Book a Service",
 
     // Hero
-    heroTitle: "Standard.",
-    heroDesc: "Professional cleaning, transport, and complete property management for those who demand uncompromising quality. All-in-one house services driven by modern equipment and radical reliability.",
-    heroCTA: "Book Now",
+    heroTitle: "Move. Clean. Clear. Done.",
+    heroSub: "Complete Moving, Cleaning & Property Services in Berlin — one team handles everything efficiently and professionally.",
+    heroIntro: "At Izzey Clean & Move – A Service by IZZ & HAMEED Dienstleistungen UG, we combine moving, cleaning, transport, furniture setup, waste removal, and property support into one seamless service.",
+    btnQuote: "Get Free Quote",
+    btnWhatsApp: "WhatsApp Now",
 
-    // Features
-    featBadge: "Functional Artifacts",
-    featTitle: "Precision Instruments",
-    featDesc: "Complete house solutions requiring no friction. We operate with modern equipment and surgical precision.",
+    // Trust Bar
+    trust1: "Same-Day Service Available",
+    trust2: "All-in-One Solutions",
+    trust3: "Fast & Reliable Response",
+    trust4: "Serving All Berlin",
+
+    // What We Do
+    whatSubtitle: "Everything You Need — Without the Hassle",
+    whatDesc: "Most customers waste time coordinating multiple providers. We do everything with one reliable team:",
+    whatList1: "Move",
+    whatList2: "Clean",
+    whatList3: "Furniture setup",
+    whatList4: "Waste disposal",
+    whatList5: "Property handover",
+
+    // Services
+    srvTitle: "Complete Service Coverage",
+    srv1Title: "Moving & Transport",
+    srv1Desc: "Safe and efficient relocation for homes, offices, and apartments.",
+    srv2Title: "Cleaning Services",
+    srv2Desc: "Move-in/move-out cleaning, rental cleaning, post-renovation cleaning, Airbnb support. Glass cleaning service is also available.",
+    srv3Title: "Furniture Pickup, Delivery & Assembly",
+    srv3Desc: "From collection to setup — including assembly and disassembly.",
+    srv4Title: "Waste Collection & Disposal",
+    srv4Desc: "Bulky waste (Sperrmüll), old furniture, renovation debris — responsibly removed.",
+    srv5Title: "Renovation & Finishing Support",
+    srv5Desc: "Minor repairs, painting, wall fixes, and preparation for handover or occupancy.",
+    srv6Title: "Property & Handover Services",
+    srv6Desc: "For tenants, landlords, and property managers — reliable and complete.",
+
+    // Signature Service
+    sigTitle: "Complete Move & Property Reset",
+    sigDesc: "One package that covers everything:",
+    sigList1: "Moving & transport",
+    sigList2: "Furniture assembly & setup",
+    sigList3: "Cleaning",
+    sigList4: "Waste removal",
+    sigList5: "Handover preparation",
+    sigOutro: "No coordination. No stress. One team handles everything.",
+    btnFullService: "Request Full Service Quote",
+
+    // Why Choose Us
+    whyTitle: "Why Choose Us",
+    why1: "One team, complete responsibility",
+    why2: "Fast, flexible, and professional",
+    why3: "Transparent and personalized solutions",
+    why4: "Growing company ready to handle projects of any size",
+    why5: "Trusted partner for long-term solutions",
+
+    // About Us
+    aboutTitle: "About Us",
+    aboutMain: "Izzey Clean & Move is a growing Berlin-based service brand operated by IZZ & HAMEED Dienstleistungen UG.",
+    aboutDesc: "We specialize in complete moving, cleaning, transport, furniture, waste disposal, and property support services. Our goal is to simplify your life by providing all-in-one solutions with reliability, efficiency, and professionalism.",
     
-    // Feature Card 1
-    c1Badge1: "Deep Cleaning",
-    c1Desc1: "Surgical elimination of microscopic debris.",
-    c1Badge2: "Bulky Transport",
-    c1Desc2: "Kinetic relocation of massive objects.",
-    c1Badge3: "Waste Protocol",
-    c1Desc3: "Secure disposal and environmental reset.",
-    c1Title: "Housing Logistics",
-    c1Details: "All-in-one complete services covering everything from routine sanitation to exhaustive long-distance relocations.",
-
-    // Feature Card 2
-    c2LiveFeed: "Live Feed",
-    c2Terminal: "INITIALIZING STAGING...\n\n> Key handover complete.\n> Cleaning array fully activated.\n> Tenant coordination sequence in progress.\n> Asset successfully secured.",
-    c2Title: "Rental Management",
-    c2Details: "Seamlessly handing over properties. Coordination with tenants and staging the environment for absolute readiness.",
-
-    // Feature Card 3
-    c3Dispatch: "Equipment & Personnel Dispatch",
-    c3Confirm: "Confirm Deployment",
-    c3Title: "Modern Apparatus",
-    c3Details: "Professional staff utilizing high-grade technical equipment. We ensure fair pricing and strictly punctual operations.",
-
-    // Philosophy
-    philIntro1: "Most agencies focus on:",
-    philApproach1: "temporary surface-level aesthetics.",
-    philIntro2: "We focus on:",
-    philApproach2: "absolute operational purity.",
-
-    // Protocol
-    step1Num: "SYS.STEP_01",
-    step1Title: "Initiation",
-    step1Desc: "Dispatching arrays and securing property access.",
-    step2Num: "SYS.STEP_02",
-    step2Title: "Sanitization",
-    step2Desc: "Executing deep-clean protocols. Zero compromise.",
-    step3Num: "SYS.STEP_03",
-    step3Title: "Handover",
-    step3Desc: "Staging the environment for optimal tenant reception.",
-
-    // Booking
+    // Booking / Contact
+    contactTitle: "Let’s Get Your Project Done",
     bookBadge: "Initiate Contact",
     bookTitle: "Reserve<br/>Protocol",
     bookDesc: "All-in-one house services driven by modern equipment and robust logistics.",
@@ -115,55 +128,68 @@ export const translations = {
     navBook: "Service Buchen",
 
     // Hero
-    heroTitle: "Standard.",
-    heroDesc: "Professionelle Reinigung, Transport und komplettes Immobilienmanagement für alle, die kompromisslose Qualität verlangen. All-in-One-Hausdienstleistungen, angetrieben durch moderne Ausrüstung und absolute Zuverlässigkeit.",
-    heroCTA: "Jetzt Buchen",
+    heroTitle: "Umziehen. Reinigen. Räumen. Fertig.",
+    heroSub: "Komplette Umzugs-, Reinigungs- & Immobilienservices in Berlin — ein Team erledigt alles effizient und professionell.",
+    heroIntro: "Bei Izzey Clean & Move – Ein Service der IZZ & HAMEED Dienstleistungen UG – vereinen wir Umzug, Reinigung, Transport, Möbelmontage, Entsorgung und Objektbetreuung in einem nahtlosen Service.",
+    btnQuote: "Kostenloses Angebot",
+    btnWhatsApp: "WhatsApp Kontakt",
 
-    // Features
-    featBadge: "Funktionale Artefakte",
-    featTitle: "Präzisionsinstrumente",
-    featDesc: "Komplette Hauslösungen ohne Reibungsverluste. Wir arbeiten mit modernster Ausrüstung und chirurgischer Präzision.",
+    // Trust Bar
+    trust1: "Express-Service verfügbar",
+    trust2: "Alles aus einer Hand",
+    trust3: "Schnelle & zuverlässige Reaktion",
+    trust4: "In ganz Berlin tätig",
+
+    // What We Do
+    whatSubtitle: "Alles was Sie brauchen – ohne Stress",
+    whatDesc: "Die meisten Kunden verschwenden Zeit mit der Koordination mehrerer Anbieter. Wir machen alles mit einem zuverlässigen Team:",
+    whatList1: "Umzug",
+    whatList2: "Reinigung",
+    whatList3: "Möbelaufbau",
+    whatList4: "Entsorgung",
+    whatList5: "Objektübergabe",
+
+    // Services
+    srvTitle: "Umfassender Service",
+    srv1Title: "Umzug & Transport",
+    srv1Desc: "Sichere und effiziente Umzüge für Privathaushalte, Büros und Wohnungen.",
+    srv2Title: "Reinigungsdienste",
+    srv2Desc: "Ein-/Auszugsreinigung, Mietreinigung, Bauendreinigung, Airbnb-Betreuung. Glasreinigung ebenfalls verfügbar.",
+    srv3Title: "Möbelabholung, Lieferung & Montage",
+    srv3Desc: "Von der Abholung bis zum Aufbau — inklusive Montage und Demontage.",
+    srv4Title: "Sperrmüll & Entsorgung",
+    srv4Desc: "Sperrmüll, alte Möbel, Renovierungsabfälle — fachgerecht entsorgt.",
+    srv5Title: "Renovierungs- & Ausbauhilfe",
+    srv5Desc: "Kleinreparaturen, Malerarbeiten, Wandausbesserungen und Vorbereitung für Übergabe oder Bezug.",
+    srv6Title: "Objekt- & Übergabeservices",
+    srv6Desc: "Für Mieter, Vermieter und Hausverwaltungen — zuverlässig und komplett.",
+
+    // Signature Service
+    sigTitle: "Komplettumzug & Objekt-Reset",
+    sigDesc: "Ein Paket, das alles abdeckt:",
+    sigList1: "Umzug & Transport",
+    sigList2: "Möbelmontage & Aufbau",
+    sigList3: "Reinigung",
+    sigList4: "Entsorgung",
+    sigList5: "Übergabevorbereitung",
+    sigOutro: "Keine Koordination. Kein Stress. Ein Team für alles.",
+    btnFullService: "Komplettservice anfragen",
+
+    // Why Choose Us
+    whyTitle: "Warum wir?",
+    why1: "Ein Team, volle Verantwortung",
+    why2: "Schnell, flexibel und professionell",
+    why3: "Transparente und maßgeschneiderte Lösungen",
+    why4: "Aufstrebendes Unternehmen für Projekte jeder Größe",
+    why5: "Zuverlässiger Partner für langfristige Lösungen",
+
+    // About Us
+    aboutTitle: "Über Uns",
+    aboutMain: "Izzey Clean & Move ist eine aufstrebende Servicemarke in Berlin, betrieben von der IZZ & HAMEED Dienstleistungen UG.",
+    aboutDesc: "Wir sind spezialisiert auf Umzug, Reinigung, Transport, Möbel, Entsorgung und Objektbetreuung. Unser Ziel ist es, Ihr Leben durch zuverlässige, effiziente und professionelle Komplettlösungen zu vereinfachen.",
     
-    // Feature Card 1
-    c1Badge1: "Tiefenreinigung",
-    c1Desc1: "Chirurgische Beseitigung von mikroskopischen Rückständen.",
-    c1Badge2: "Sperrguttransport",
-    c1Desc2: "Kinetische Verlagerung massiver Objekte.",
-    c1Badge3: "Abfallprotokoll",
-    c1Desc3: "Sichere Entsorgung und Umwelt-Reset.",
-    c1Title: "Wohnlogistik",
-    c1Details: "Komplette All-in-One-Services, die alles abdecken – von der routinemäßigen Reinigung bis hin zu umfassenden Fernumzügen.",
-
-    // Feature Card 2
-    c2LiveFeed: "Live-Feed",
-    c2Terminal: "INITIALISIERUNG DER BEREITSTELLUNG...\n\n> Schlüsselübergabe abgeschlossen.\n> Reinigungsarray vollständig aktiviert.\n> Mieterkoordinationssequenz im Gange.\n> Asset erfolgreich gesichert.",
-    c2Title: "Mietverwaltung",
-    c2Details: "Reibungslose Übergabe von Immobilien. Koordination mit Mietern und Vorbereitung der Umgebung für absolute Einsatzbereitschaft.",
-
-    // Feature Card 3
-    c3Dispatch: "Ausrüstungs- & Personaleinsatz",
-    c3Confirm: "Einsatz Bestätigen",
-    c3Title: "Moderne Apparate",
-    c3Details: "Professionelles Personal mit hochwertiger technischer Ausrüstung. Wir garantieren faire Preise und absolut pünktliche Abläufe.",
-
-    // Philosophy
-    philIntro1: "Die meisten Agenturen fokussieren sich auf:",
-    philApproach1: "temporäre, oberflächliche Ästhetik.",
-    philIntro2: "Wir fokussieren uns auf:",
-    philApproach2: "absolute operative Reinheit.",
-
-    // Protocol
-    step1Num: "SYS.SCHRITT_01",
-    step1Title: "Initiierung",
-    step1Desc: "Entsendung von Teams und Sicherung des Immobilienzugangs.",
-    step2Num: "SYS.SCHRITT_02",
-    step2Title: "Desinfektion",
-    step2Desc: "Ausführung von Tiefenreinigungsprotokollen. Keine Kompromisse.",
-    step3Num: "SYS.SCHRITT_03",
-    step3Title: "Übergabe",
-    step3Desc: "Vorbereitung der Umgebung für den optimalen Mieterempfang.",
-
-    // Booking
+    // Booking / Contact
+    contactTitle: "Lassen Sie uns Ihr Projekt starten",
     bookBadge: "Kontakt Initiieren",
     bookTitle: "Reservierungs-<br/>protokoll",
     bookDesc: "All-in-One-Hausdienstleistungen, angetrieben durch moderne Ausrüstung und robuste Logistik.",

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import TrustBar from './components/TrustBar';
 import Features from './components/Features';
 import Philosophy from './components/Philosophy';
 import Protocol from './components/Protocol';
@@ -44,6 +45,7 @@ function App() {
       <div className="w-full relative selection:bg-accent/40 selection:text-dark">
         <Navbar />
         <Hero />
+        <TrustBar />
         <Features />
         <Philosophy />
         <Protocol />

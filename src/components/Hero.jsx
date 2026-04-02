@@ -23,7 +23,7 @@ export default function Hero() {
   return (
     <section 
       ref={containerRef}
-      className="relative h-[100dvh] w-full flex items-end justify-start p-6 md:p-12 lg:p-24 overflow-hidden"
+      className="relative min-h-[100dvh] w-full flex items-center md:items-end justify-start p-6 md:p-12 lg:p-24 overflow-hidden pt-32 md:pt-0"
     >
       {/* Background Image with Organic Tech Mood filter */}
       <div 
@@ -34,22 +34,31 @@ export default function Hero() {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 max-w-2xl text-background">
-        <div className="overflow-hidden hero-elem mb-8">
-          <h1 className="font-drama italic text-6xl md:text-8xl lg:text-[10rem] leading-[0.8] tracking-tighter text-background">
+      <div className="relative z-10 max-w-3xl text-background">
+        <div className="overflow-hidden hero-elem mb-6">
+          <h1 className="font-drama italic text-5xl md:text-7xl lg:text-[8rem] leading-[0.9] tracking-tighter text-background">
             {t('heroTitle')}
           </h1>
         </div>
         
-        <div className="hero-elem">
-          <p className="font-mono text-sm md:text-base text-background/80 max-w-md mb-8 leading-relaxed">
-            {t('heroDesc')}
+        <div className="hero-elem mb-6">
+          <p className="font-body font-bold text-xl md:text-2xl text-background/90 max-w-2xl leading-relaxed">
+            {t('heroSub')}
           </p>
         </div>
 
-        <div className="hero-elem">
-          <a href="#book" className="inline-flex magnetic-btn bg-accent text-background px-8 py-4 rounded-[2rem] text-sm font-bold items-center gap-3">
-            <span className="relative z-10 w-full text-center tracking-wide">{t('heroCTA')}</span>
+        <div className="hero-elem mb-10">
+          <p className="font-mono text-sm md:text-base text-background/80 max-w-2xl leading-relaxed">
+            {t('heroIntro')}
+          </p>
+        </div>
+
+        <div className="hero-elem flex flex-col sm:flex-row gap-4">
+          <a href="#book" className="inline-flex magnetic-btn bg-accent text-background px-8 py-4 rounded-[2rem] text-sm font-bold items-center justify-center gap-3">
+            <span className="relative z-10 tracking-wide">{t('btnQuote')}</span>
+          </a>
+          <a href="https://wa.me/4917621709991" target="_blank" rel="noreferrer" className="inline-flex bg-transparent border border-background/30 hover:bg-background/10 transition-colors text-background px-8 py-4 rounded-[2rem] text-sm font-bold items-center justify-center gap-3">
+            <span className="relative z-10 tracking-wide">{t('btnWhatsApp')}</span>
           </a>
         </div>
       </div>
