@@ -25,12 +25,42 @@ export default function Features() {
   }, []);
 
   const services = [
-    { icon: Truck, titleKey: 'srv1Title', descKey: 'srv1Desc' },
-    { icon: Sparkles, titleKey: 'srv2Title', descKey: 'srv2Desc' },
-    { icon: Package, titleKey: 'srv3Title', descKey: 'srv3Desc' },
-    { icon: Trash2, titleKey: 'srv4Title', descKey: 'srv4Desc' },
-    { icon: Wrench, titleKey: 'srv5Title', descKey: 'srv5Desc' },
-    { icon: Home, titleKey: 'srv6Title', descKey: 'srv6Desc' },
+    { 
+      icon: Truck, 
+      img: 'https://images.unsplash.com/photo-1600585158652-5a21dbf1aef5?q=80&w=800&auto=format&fit=crop',
+      titleKey: 'srv1Title', 
+      descKey: 'srv1Desc' 
+    },
+    { 
+      icon: Sparkles, 
+      img: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop',
+      titleKey: 'srv2Title', 
+      descKey: 'srv2Desc' 
+    },
+    { 
+      icon: Package, 
+      img: 'https://images.unsplash.com/photo-1532372572111-bba91b0c036d?q=80&w=800&auto=format&fit=crop',
+      titleKey: 'srv3Title', 
+      descKey: 'srv3Desc' 
+    },
+    { 
+      icon: Trash2, 
+      img: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800&auto=format&fit=crop',
+      titleKey: 'srv4Title', 
+      descKey: 'srv4Desc' 
+    },
+    { 
+      icon: Wrench, 
+      img: 'https://images.unsplash.com/photo-1504307651254-35680f356f12?q=80&w=800&auto=format&fit=crop',
+      titleKey: 'srv5Title', 
+      descKey: 'srv5Desc' 
+    },
+    { 
+      icon: Home, 
+      img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop',
+      titleKey: 'srv6Title', 
+      descKey: 'srv6Desc' 
+    },
   ];
 
   const whatWeDoList = [
@@ -67,12 +97,15 @@ export default function Features() {
       {/* Services Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((srv, idx) => (
-          <div key={idx} className="feature-card bg-[#F2F0E9] p-8 rounded-[2rem] border border-black/5 hover:bg-[#EAE8E2] transition-colors duration-300">
-            <srv.icon className="w-10 h-10 text-accent mb-6" />
-            <h3 className="font-heading font-bold text-xl mb-3 leading-tight">{t(srv.titleKey)}</h3>
-            <p className="font-body text-dark/70 leading-relaxed text-sm">
-              {t(srv.descKey)}
-            </p>
+          <div key={idx} className="feature-card flex flex-col bg-[#F2F0E9] rounded-[2rem] border border-black/5 hover:bg-[#EAE8E2] transition-colors duration-300 overflow-hidden">
+            <div className="h-48 w-full bg-cover bg-center" style={{ backgroundImage: `url(${srv.img})` }}></div>
+            <div className="p-8 pb-10 flex flex-col flex-1">
+              <srv.icon className="w-8 h-8 text-accent mb-6" />
+              <h3 className="font-heading font-bold text-xl mb-3 leading-tight">{t(srv.titleKey)}</h3>
+              <p className="font-body text-dark/70 leading-relaxed text-sm">
+                {t(srv.descKey)}
+              </p>
+            </div>
           </div>
         ))}
       </div>
