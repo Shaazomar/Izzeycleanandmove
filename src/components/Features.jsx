@@ -27,7 +27,7 @@ export default function Features() {
   const services = [
     { 
       icon: Truck, 
-      img: 'https://images.unsplash.com/photo-1600585158652-5a21dbf1aef5?q=80&w=800&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1549834125-82d3c48159a3?q=80&w=800&auto=format&fit=crop',
       titleKey: 'srv1Title', 
       descKey: 'srv1Desc' 
     },
@@ -39,19 +39,19 @@ export default function Features() {
     },
     { 
       icon: Package, 
-      img: 'https://images.unsplash.com/photo-1532372572111-bba91b0c036d?q=80&w=800&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=800&auto=format&fit=crop',
       titleKey: 'srv3Title', 
       descKey: 'srv3Desc' 
     },
     { 
       icon: Trash2, 
-      img: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1605600659908-0ef719419d41?q=80&w=800&auto=format&fit=crop',
       titleKey: 'srv4Title', 
       descKey: 'srv4Desc' 
     },
     { 
       icon: Wrench, 
-      img: 'https://images.unsplash.com/photo-1504307651254-35680f356f12?q=80&w=800&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800&auto=format&fit=crop',
       titleKey: 'srv5Title', 
       descKey: 'srv5Desc' 
     },
