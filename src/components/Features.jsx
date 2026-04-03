@@ -27,7 +27,7 @@ export default function Features() {
   const services = [
     { 
       icon: Truck, 
-      img: 'https://images.unsplash.com/photo-1549834125-82d3c48159a3?q=80&w=800&auto=format&fit=crop',
+      img: '/moving-boxes.png',
       titleKey: 'srv1Title', 
       descKey: 'srv1Desc' 
     },
