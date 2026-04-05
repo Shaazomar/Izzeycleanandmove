@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Background Image with Organic Tech Mood filter */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2940&auto=format&fit=crop")' }}
+        style={{ backgroundImage: 'url("/hero-bg.png")' }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/80 to-primary/50 mix-blend-multiply"></div>
       </div>

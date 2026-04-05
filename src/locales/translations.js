@@ -34,9 +34,9 @@ export const translations = {
     // Services
     srvTitle: "Complete Service Coverage",
     srv1Title: "Moving & Transport",
-    srv1Desc: "Safe and efficient relocation for homes, offices, and apartments.",
+    srv1Desc: "Safe and efficient relocation for homes, offices, and apartments. Airport pickup and drop service also available.",
     srv2Title: "Cleaning Services",
-    srv2Desc: "Move-in/move-out cleaning, rental cleaning, post-renovation cleaning, window & glass cleaning, and Airbnb support.",
+    srv2Desc: "Move-in/move-out cleaning, rental cleaning, post-renovation cleaning, window & glass cleaning, hotel cleaning, office cleaning, and Airbnb support.",
     srv3Title: "Furniture Pickup, Delivery & Assembly",
     srv3Desc: "From collection to setup — including assembly and disassembly.",
     srv4Title: "Waste Collection & Disposal",
@@ -152,9 +152,9 @@ export const translations = {
     // Services
     srvTitle: "Umfassender Service",
     srv1Title: "Umzug & Transport",
-    srv1Desc: "Sichere und effiziente Umzüge für Privathaushalte, Büros und Wohnungen.",
+    srv1Desc: "Sichere und effiziente Umzüge für Privathaushalte, Büros und Wohnungen. Flughafenabhol- und Bringservice ebenfalls verfügbar.",
     srv2Title: "Reinigungsdienste",
-    srv2Desc: "Ein-/Auszugsreinigung, Mietreinigung, Bauendreinigung, Fenster- & Glasreinigung sowie Airbnb-Betreuung.",
+    srv2Desc: "Ein-/Auszugsreinigung, Mietreinigung, Bauendreinigung, Fenster- & Glasreinigung, Hotelreinigung, Büroreinigung sowie Airbnb-Betreuung.",
     srv3Title: "Möbelabholung, Lieferung & Montage",
     srv3Desc: "Von der Abholung bis zum Aufbau — inklusive Montage und Demontage.",
     srv4Title: "Sperrmüll & Entsorgung",
