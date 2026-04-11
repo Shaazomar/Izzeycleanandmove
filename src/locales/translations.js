@@ -10,7 +10,7 @@ export const translations = {
     navBook: "Book a Service",
 
     // Hero
-    heroTitle: "Move. Clean. Clear. Done.",
+    heroTitle: "Professional Cleaning & Moving Made Simple.",
     heroSub: "Complete Moving, Cleaning & Property Services in Berlin — one team handles everything efficiently and professionally.",
     heroIntro: "At Izzey Clean & Move – A Service by IZZ & HAMEED Dienstleistungen UG, we combine moving, cleaning, transport, furniture setup, waste removal, and property support into one seamless service.",
     btnQuote: "Get Free Quote",
@@ -128,7 +128,7 @@ export const translations = {
     navBook: "Service Buchen",
 
     // Hero
-    heroTitle: "Umziehen. Reinigen. Räumen. Fertig.",
+    heroTitle: "Professionelle Reinigung & Umzüge leicht gemacht.",
     heroSub: "Komplette Umzugs-, Reinigungs- & Immobilienservices in Berlin — ein Team erledigt alles effizient und professionell.",
     heroIntro: "Bei Izzey Clean & Move – Ein Service der IZZ & HAMEED Dienstleistungen UG – vereinen wir Umzug, Reinigung, Transport, Möbelmontage, Entsorgung und Objektbetreuung in einem nahtlosen Service.",
     btnQuote: "Kostenloses Angebot",

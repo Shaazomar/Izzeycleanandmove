@@ -27,13 +27,13 @@ export default function Navbar() {
     <div className="fixed top-6 left-0 right-0 z-[100] flex justify-center px-4 pointer-events-none">
       <nav 
         ref={navRef}
-        className="pointer-events-auto flex items-center justify-between px-6 py-4 rounded-full w-full max-w-4xl transition-all duration-300 [&.scrolled]:bg-background/60 [&.scrolled]:backdrop-blur-xl [&.scrolled]:border [&.scrolled]:border-primary/10 [&.scrolled]:shadow-sm text-background [&.scrolled]:text-dark"
+        className="pointer-events-auto flex items-center justify-between px-6 py-4 rounded-[2rem] w-full max-w-5xl transition-all duration-300 bg-[#F2F0E9] border border-dark/5 shadow-md text-dark font-medium"
       >
-        <div className="font-heading font-bold text-xl tracking-tight">
+        <div className="font-heading font-extrabold text-xl tracking-tight">
           {t('brandName')}
         </div>
         
-        <div className="hidden md:flex items-center gap-8 font-body font-medium text-sm">
+        <div className="hidden md:flex items-center gap-8 font-body font-medium text-[15px]">
           <a href="#services" className="magnetic-link">{t('navServices')}</a>
           <a href="#management" className="magnetic-link">{t('navManagement')}</a>
           <a href="#protocol" className="magnetic-link">{t('navProtocol')}</a>
