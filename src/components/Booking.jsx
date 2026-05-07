@@ -100,7 +100,7 @@ export default function Booking() {
         {/* Left: Contact Info */}
         <div className="flex flex-col justify-center booking-elem text-dark">
           <p className="font-mono text-sm tracking-widest text-primary uppercase mb-6 booking-elem">{t('contactTitle')}</p>
-          <h2 className="font-drama italic text-6xl md:text-8xl leading-none mb-8 booking-elem" dangerouslySetInnerHTML={{__html: t('bookTitle')}}></h2>
+          <h2 className="font-drama italic text-6xl md:text-8xl leading-none mb-8 booking-elem" dangerouslySetInnerHTML={{ __html: t('bookTitle') }}></h2>
           <p className="font-body text-xl opacity-80 mb-12 max-w-md booking-elem">
             {t('bookDesc')}
           </p>
@@ -108,7 +108,7 @@ export default function Booking() {
           <div className="mt-auto grid grid-cols-1 sm:grid-cols-2 gap-8 font-mono text-sm booking-elem">
             <div>
               <p className="text-dark/50 mb-1">EMAIL</p>
-              <a href="mailto:izzhameed.ug@gmail.com" className="font-bold border-b border-dark/20 hover:border-dark transition-colors truncate block">izzhameed.ug@gmail.com</a>
+              <a href="mailto:info@izzey.de" className="font-bold border-b border-dark/20 hover:border-dark transition-colors truncate block">info@izzey.de</a>
             </div>
             <div>
               <p className="text-dark/50 mb-1">LOCATION</p>
@@ -173,15 +173,14 @@ export default function Booking() {
             </div>
 
             {status && (
-              <div className={`text-sm font-bold text-center mt-4 ${
-                status.includes('Error') || status.includes('Fehler')
+              <div className={`text-sm font-bold text-center mt-4 ${status.includes('Error') || status.includes('Fehler')
                   ? 'text-red-500'
                   : status.includes('Success') || status.includes('Erfolg')
-                  ? 'text-green-600'
-                  : status.includes('many') || status.includes('viele')
-                  ? 'text-orange-500'
-                  : 'text-accent'
-              }`}>
+                    ? 'text-green-600'
+                    : status.includes('many') || status.includes('viele')
+                      ? 'text-orange-500'
+                      : 'text-accent'
+                }`}>
                 {status}
               </div>
             )}

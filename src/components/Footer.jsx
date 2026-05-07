@@ -37,7 +37,7 @@ export default function Footer() {
 
           <div className="flex flex-col gap-4">
             <h3 className="font-mono text-xs tracking-widest text-[#CC5833] uppercase mb-2">{t('footComm')}</h3>
-            <a href="mailto:izzhameed.ug@gmail.com" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200 truncate">izzhameed.ug@gmail.com</a>
+            <a href="mailto:info@izzey.de" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200 truncate">info@izzey.de</a>
             <a href="https://wa.me/4917621709991" target="_blank" rel="noreferrer" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">+49 176 2170 9991</a>
             <a href="https://www.instagram.com/izzham_ug?igsh=Ymk2Y254aDFxd2gz&utm_source=qr" target="_blank" rel="noreferrer" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">Instagram</a>
             <a href="https://www.facebook.com/profile.php?id=61564135116273" target="_blank" rel="noreferrer" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">Facebook</a>
