@@ -6,16 +6,16 @@ export default function Footer() {
   return (
     <footer className="bg-[#111111] text-background rounded-t-[4rem] overflow-hidden pt-24 pb-12 px-6 md:px-12 mt-12 shadow-sm border-t border-black/5 relative z-50">
       <div className="max-w-7xl mx-auto flex flex-col items-start gap-16">
-        
+
         {/* Top Grid */}
         <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-12">
-          
+
           <div className="md:col-span-2">
             <h2 className="font-heading font-bold text-3xl tracking-tight mb-4 text-[#F2F0E9]">{t('brandName')}</h2>
             <p className="font-body text-[#F2F0E9]/60 max-w-sm mb-8 leading-relaxed">
               {t('footDesc')}
             </p>
-            
+
             {/* System Operational Badge */}
             <div className="inline-flex items-center gap-2 group cursor-pointer">
               <span className="relative flex h-3 w-3">
@@ -39,7 +39,7 @@ export default function Footer() {
             <h3 className="font-mono text-xs tracking-widest text-[#CC5833] uppercase mb-2">{t('footComm')}</h3>
             <a href="mailto:info@izzey.de" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200 truncate">info@izzey.de</a>
             <a href="https://wa.me/4917621709991" target="_blank" rel="noreferrer" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">+49 176 2170 9991</a>
-            <a href="https://www.instagram.com/izzham_ug?igsh=Ymk2Y254aDFxd2gz&utm_source=qr" target="_blank" rel="noreferrer" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">Instagram</a>
+            <a href="https://www.instagram.com/izzey.de/" target="_blank" rel="noreferrer" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">Instagram</a>
             <a href="https://www.facebook.com/profile.php?id=61564135116273" target="_blank" rel="noreferrer" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">Facebook</a>
           </div>
 
