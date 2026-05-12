@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Footer() {
@@ -30,9 +31,9 @@ export default function Footer() {
 
           <div className="flex flex-col gap-4">
             <h3 className="font-mono text-xs tracking-widest text-[#CC5833] uppercase mb-2">{t('footProto')}</h3>
-            <a href="#services" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">{t('footArr')}</a>
-            <a href="#management" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">{t('footSync')}</a>
-            <a href="#protocol" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">{t('footStack')}</a>
+            <a href="/#services" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">{t('footArr')}</a>
+            <a href="/#management" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">{t('footSync')}</a>
+            <a href="/#protocol" className="font-body text-sm text-[#F2F0E9]/70 hover:text-white transition-colors duration-200">{t('footStack')}</a>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -48,9 +49,14 @@ export default function Footer() {
         {/* Bottom Line */}
         <div className="border-t border-white/10 w-full pt-12 flex flex-col md:flex-row items-center justify-between gap-6 font-mono text-xs text-[#F2F0E9]/40">
           <span>&copy; {new Date().getFullYear()} {t('brandName')}. {t('footRights')}</span>
-          <div className="flex gap-8">
-            <span className="hover:text-white cursor-pointer transition-colors duration-200">{t('footPrivacy')}</span>
-            <span className="hover:text-white cursor-pointer transition-colors duration-200">{t('footTerms')}</span>
+          <div className="flex gap-6 flex-wrap justify-center md:justify-end">
+            <Link to="/impressum" className="hover:text-white cursor-pointer transition-colors duration-200">{t('footImpressum')}</Link>
+            <span className="text-[#F2F0E9]/20 hidden md:inline">|</span>
+            <Link to="/privacy" className="hover:text-white cursor-pointer transition-colors duration-200">{t('footPrivacy')}</Link>
+            <span className="text-[#F2F0E9]/20 hidden md:inline">|</span>
+            <Link to="/terms" className="hover:text-white cursor-pointer transition-colors duration-200">{t('footTerms')}</Link>
+            <span className="text-[#F2F0E9]/20 hidden md:inline">|</span>
+            <button className="hover:text-white cursor-pointer transition-colors duration-200">{t('footCookie')}</button>
           </div>
         </div>
 

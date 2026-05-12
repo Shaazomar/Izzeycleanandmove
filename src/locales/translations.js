@@ -103,7 +103,7 @@ export const translations = {
     msgError: "Error: Transmission failed. Please try again or use direct contact.",
     msgRateLimit: "Too many attempts. Please wait 60 seconds before initiating another protocol.",
 
-    // Footer
+    // Footer & Cookie
     footDesc: "Precision cleaning, advanced relocation logistics, and absolute parameter control for modern property management.",
     footStatus: "SYSTEM OPERATIONAL",
     footProto: "Protocol",
@@ -113,8 +113,116 @@ export const translations = {
     footComm: "Communications",
     footClientPortal: "Client Portal",
     footRights: "All rights reserved.",
+    footImpressum: "Impressum",
     footPrivacy: "Privacy Policy",
-    footTerms: "Terms of Service"
+    footTerms: "Terms & Conditions",
+    footCookie: "Cookie Settings",
+    cookieText: "We use cookies to improve website functionality, process quote requests, and ensure security. Optional analytics cookies are only used with your consent.",
+    cookieAcceptAll: "Accept All",
+    cookieReject: "Reject Optional",
+    cookieSettings: "Cookie Settings",
+
+    // Impressum
+    impressumTitle: "Impressum",
+    impressumContent: "Information according to § 5 TMG\n\nIzz & Hameed Dienstleistungs UG (haftungsbeschränkt)\nAlt Moabit 58\n10555 Berlin\nGermany\n\nRepresented by the Managing Director:\nIzuddin Arfaz\n\nCommercial Register:\nAmtsgericht Charlottenburg (Berlin)\nHRB 263920 B\n\nContact:\nEmail: info@izzey.de\nPhone: +49 176 2170 9991\n\nVAT ID:\nCurrently no VAT identification number available.\n\nResponsible for the content according to § 18 Abs. 2 MStV:\nIzuddin Arfaz\nAlt Moabit 58\n10555 Berlin\nGermany",
+    
+    // Privacy Policy
+    privacyTitle: "Privacy Policy",
+    privacySections: [
+      {
+        title: "1. General Information",
+        content: "We take the protection of your personal data seriously. Personal data is processed in accordance with applicable data protection laws, including the General Data Protection Regulation (GDPR)."
+      },
+      {
+        title: "2. Controller",
+        content: "Izz & Hameed Dienstleistungs UG (haftungsbeschränkt)\nAlt Moabit 58, 10555 Berlin, Germany\nEmail: info@izzey.de\nPhone: +49 176 2170 9991\n\nManaging Director: Izuddin Arfaz"
+      },
+      {
+        title: "3. Data We Collect",
+        content: "We may collect:\n\na) Information you provide\n- Full name\n- Email address\n- Telephone number\n- Pickup / delivery address\n- Service details\n- Property details\n- Inventory / moving item details\n- Cleaning requirements\n- Uploaded images/documents (if provided)\n- Payment confirmation details\n\nb) Automatically collected data\n- IP address\n- Browser type\n- Device type\n- Operating system\n- Date/time of access\n- Referring website\n- Website interaction logs"
+      },
+      {
+        title: "4. Purpose of Processing",
+        content: "We process data for:\n- answering inquiries\n- preparing quotes\n- booking services\n- contract fulfillment\n- customer support\n- invoicing\n- fraud prevention\n- website security\n- legal compliance"
+      },
+      {
+        title: "5. Legal Basis",
+        content: "Processing is based on:\n- Art. 6(1)(b) GDPR (contract / pre-contractual steps)\n- Art. 6(1)(c) GDPR (legal obligation)\n- Art. 6(1)(f) GDPR (legitimate interest)\n- Art. 6(1)(a) GDPR (consent where required)"
+      },
+      {
+        title: "6. Cookies",
+        content: "Our website may use cookies necessary for:\n- website functionality\n- quote request forms\n- user preferences\n- payment handling\n- security\n\nOptional analytics or marketing cookies will only be used with user consent."
+      },
+      {
+        title: "7. Online Payments",
+        content: "Payments may be handled by secure banking channels and transfer confirmation systems. Payment details are processed only to complete transactions and maintain accounting records.\n\nWe do not store sensitive banking credentials."
+      },
+      {
+        title: "8. Data Retention",
+        content: "We retain data only as long as necessary:\n- inquiries: up to 12 months\n- contracts & invoices: according to statutory retention periods under German law\n- legal claims: as required by limitation periods"
+      },
+      {
+        title: "9. Sharing of Data",
+        content: "We may share data only where necessary with:\n- subcontractors\n- logistics partners\n- storage providers\n- IT hosting providers\n- legal/accounting advisors\n- authorities where legally required\n\nNo sale of personal data takes place."
+      },
+      {
+        title: "10. Your Rights",
+        content: "You have the right to:\n- access your data\n- correct inaccurate data\n- request deletion\n- restrict processing\n- object to processing\n- data portability\n- withdraw consent"
+      },
+      {
+        title: "11. Security",
+        content: "We use appropriate technical and organizational measures to protect personal data against unauthorized access, loss, misuse, or alteration."
+      },
+      {
+        title: "12. Contact",
+        content: "Privacy inquiries:\ninfo@izzey.de\n\nLast updated: March 2026"
+      }
+    ],
+
+    // Terms of Service
+    termsTitle: "Terms of Service",
+    termsSections: [
+      {
+        title: "1. Scope",
+        content: "Izz & Hameed Dienstleistungs UG (haftungsbeschränkt) provides:\n- home cleaning\n- office cleaning\n- deep cleaning\n- moving services\n- packing / unpacking\n- furniture assembly / disassembly\n- storage services\n- junk removal / disposal"
+      },
+      {
+        title: "2. Quotes",
+        content: "All estimates are non-binding unless confirmed in writing.\n\nPrices may vary depending on:\n- property size\n- accessibility\n- labor hours\n- item quantity\n- special equipment\n- disposal costs\n- storage duration\n- packing materials"
+      },
+      {
+        title: "3. Customer Obligations",
+        content: "Customers must provide accurate information regarding:\n- addresses\n- access restrictions\n- elevator availability\n- parking restrictions\n- item volume\n- hazardous materials\n- fragile / high-value items"
+      },
+      {
+        title: "4. High-Value Items",
+        content: "We transport high-value items including artwork, antiques, specialty furniture, and delicate items.\n\nCustomers must disclose such items in advance.\n\nDeclared value may be required for insurance and liability assessment."
+      },
+      {
+        title: "5. Liability",
+        content: "We are liable in accordance with German law for damage caused by intentional misconduct or gross negligence.\n\nWe are not liable for:\n- undisclosed fragile items\n- pre-existing defects\n- improper customer packing\n- hidden structural weaknesses\n- force majeure\n- weather delays\n- access restrictions not disclosed in advance"
+      },
+      {
+        title: "6. Cleaning Disclaimer",
+        content: "We are not responsible for:\n- wear and tear\n- pre-existing stains\n- permanent discoloration\n- unsuitable materials reacting to cleaning products"
+      },
+      {
+        title: "7. Storage",
+        content: "Stored items remain property of the customer.\n\nStorage fees apply according to agreed terms.\n\nItems prohibited by law may not be stored."
+      },
+      {
+        title: "8. Cancellation",
+        content: "Cancellation fees may apply where labor, logistics, or reserved equipment has already been scheduled."
+      },
+      {
+        title: "9. Payment",
+        content: "Payment is due according to invoice terms unless otherwise agreed.\n\nLate payments may incur statutory charges."
+      },
+      {
+        title: "10. Governing Law",
+        content: "German law applies.\n\nJurisdiction, where legally permissible: Berlin.\n\nWe use cookies to improve website functionality, process quote requests, and ensure security. Optional analytics cookies are only used with your consent."
+      }
+    ]
   },
   
   de: {
@@ -221,7 +329,7 @@ export const translations = {
     msgError: "Fehler: Übermittlung fehlgeschlagen. Bitte versuchen Sie es erneut oder nutzen Sie den direkten Kontakt.",
     msgRateLimit: "Zu viele Versuche. Bitte warten Sie 60 Sekunden, bevor Sie ein weiteres Protokoll initiieren.",
 
-    // Footer
+    // Footer & Cookie
     footDesc: "Präzisionsreinigung, fortschrittliche Relokationslogistik und absolute Parameterkontrolle für die moderne Immobilienverwaltung.",
     footStatus: "SYSTEM BETRIEBSBEREIT",
     footProto: "Protokoll",
@@ -231,7 +339,115 @@ export const translations = {
     footComm: "Kommunikation",
     footClientPortal: "Kundenportal",
     footRights: "Alle Rechte vorbehalten.",
+    footImpressum: "Impressum",
     footPrivacy: "Datenschutzrichtlinie",
-    footTerms: "Nutzungsbedingungen"
+    footTerms: "Nutzungsbedingungen",
+    footCookie: "Cookie-Einstellungen",
+    cookieText: "Wir verwenden Cookies, um die Funktionalität der Website zu verbessern, Angebotsanfragen zu bearbeiten und die Sicherheit zu gewährleisten. Optionale Analyse-Cookies werden nur mit Ihrer Zustimmung verwendet.",
+    cookieAcceptAll: "Alle akzeptieren",
+    cookieReject: "Optionale ablehnen",
+    cookieSettings: "Cookie-Einstellungen",
+
+    // Impressum
+    impressumTitle: "Impressum",
+    impressumContent: "Angaben gemäß § 5 TMG\n\nIzz & Hameed Dienstleistungs UG (haftungsbeschränkt)\nAlt Moabit 58\n10555 Berlin\nGermany\n\nVertreten durch den Geschäftsführer:\nIzuddin Arfaz\n\nHandelsregister:\nAmtsgericht Charlottenburg (Berlin)\nHRB 263920 B\n\nKontakt:\nE-Mail: info@izzey.de\nTelefon: +49 176 2170 9991\n\nUmsatzsteuer-ID:\nDerzeit keine Umsatzsteuer-Identifikationsnummer vorhanden.\n\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV:\nIzuddin Arfaz\nAlt Moabit 58\n10555 Berlin\nGermany",
+
+    // Privacy Policy
+    privacyTitle: "Datenschutzerklärung",
+    privacySections: [
+      {
+        title: "1. Allgemeine Informationen",
+        content: "Wir nehmen den Schutz Ihrer persönlichen Daten ernst. Personenbezogene Daten werden gemäß den geltenden Datenschutzgesetzen, einschließlich der Datenschutz-Grundverordnung (DSGVO), verarbeitet."
+      },
+      {
+        title: "2. Verantwortlicher",
+        content: "Izz & Hameed Dienstleistungs UG (haftungsbeschränkt)\nAlt Moabit 58, 10555 Berlin, Deutschland\nE-Mail: info@izzey.de\nTelefon: +49 176 2170 9991\n\nGeschäftsführer: Izuddin Arfaz"
+      },
+      {
+        title: "3. Daten, die wir erfassen",
+        content: "Wir können folgende Daten erfassen:\n\na) Informationen, die Sie bereitstellen\n- Vollständiger Name\n- E-Mail-Adresse\n- Telefonnummer\n- Abhol-/Lieferadresse\n- Servicedetails\n- Objektdetails\n- Inventar-/Umzugsgutdetails\n- Reinigungsanforderungen\n- Hochgeladene Bilder/Dokumente (falls bereitgestellt)\n- Zahlungsbestätigungsdetails\n\nb) Automatisch erfasste Daten\n- IP-Adresse\n- Browsertyp\n- Gerätetyp\n- Betriebssystem\n- Datum/Uhrzeit des Zugriffs\n- Verweisende Website\n- Website-Interaktionsprotokolle"
+      },
+      {
+        title: "4. Zweck der Verarbeitung",
+        content: "Wir verarbeiten Daten für:\n- Beantwortung von Anfragen\n- Angebotserstellung\n- Buchung von Dienstleistungen\n- Vertragserfüllung\n- Kundensupport\n- Rechnungsstellung\n- Betrugsprävention\n- Website-Sicherheit\n- Einhaltung gesetzlicher Vorschriften"
+      },
+      {
+        title: "5. Rechtsgrundlage",
+        content: "Die Verarbeitung basiert auf:\n- Art. 6(1)(b) DSGVO (Vertrag / vorvertragliche Maßnahmen)\n- Art. 6(1)(c) DSGVO (rechtliche Verpflichtung)\n- Art. 6(1)(f) DSGVO (berechtigtes Interesse)\n- Art. 6(1)(a) DSGVO (Einwilligung, falls erforderlich)"
+      },
+      {
+        title: "6. Cookies",
+        content: "Unsere Website verwendet möglicherweise Cookies, die erforderlich sind für:\n- Website-Funktionalität\n- Angebotsanfrageformulare\n- Benutzereinstellungen\n- Zahlungsabwicklung\n- Sicherheit\n\nOptionale Analyse- oder Marketing-Cookies werden nur mit Zustimmung des Benutzers verwendet."
+      },
+      {
+        title: "7. Online-Zahlungen",
+        content: "Zahlungen können über sichere Bankkanäle und Überweisungsbestätigungssysteme abgewickelt werden. Zahlungsdetails werden nur verarbeitet, um Transaktionen abzuschließen und Buchhaltungsunterlagen zu führen.\n\nWir speichern keine sensiblen Bankdaten."
+      },
+      {
+        title: "8. Vorratsdatenspeicherung",
+        content: "Wir speichern Daten nur so lange wie nötig:\n- Anfragen: bis zu 12 Monate\n- Verträge & Rechnungen: gemäß den gesetzlichen Aufbewahrungsfristen nach deutschem Recht\n- Rechtsansprüche: wie nach den Verjährungsfristen erforderlich"
+      },
+      {
+        title: "9. Weitergabe von Daten",
+        content: "Wir geben Daten nur dort weiter, wo es notwendig ist, an:\n- Subunternehmer\n- Logistikpartner\n- Lageranbieter\n- IT-Hosting-Anbieter\n- Rechts-/Buchhaltungsberater\n- Behörden, sofern gesetzlich vorgeschrieben\n\nEs findet kein Verkauf von personenbezogenen Daten statt."
+      },
+      {
+        title: "10. Ihre Rechte",
+        content: "Sie haben das Recht auf:\n- Auskunft über Ihre Daten\n- Berichtigung unrichtiger Daten\n- Löschung beantragen\n- Einschränkung der Verarbeitung\n- Widerspruch gegen die Verarbeitung\n- Datenübertragbarkeit\n- Widerruf der Einwilligung"
+      },
+      {
+        title: "11. Sicherheit",
+        content: "Wir verwenden geeignete technische und organisatorische Maßnahmen, um personenbezogene Daten vor unbefugtem Zugriff, Verlust, Missbrauch oder Änderung zu schützen."
+      },
+      {
+        title: "12. Kontakt",
+        content: "Datenschutzanfragen:\ninfo@izzey.de\n\nZuletzt aktualisiert: März 2026"
+      }
+    ],
+
+    // Terms of Service
+    termsTitle: "Nutzungsbedingungen",
+    termsSections: [
+      {
+        title: "1. Geltungsbereich",
+        content: "Izz & Hameed Dienstleistungs UG (haftungsbeschränkt) bietet an:\n- Haushaltsreinigung\n- Büroreinigung\n- Grundreinigung\n- Umzugsdienstleistungen\n- Ein- / Auspackservice\n- Möbelmontage / -demontage\n- Einlagerungsdienste\n- Sperrmüllentsorgung"
+      },
+      {
+        title: "2. Angebote",
+        content: "Alle Kostenvoranschläge sind unverbindlich, sofern sie nicht schriftlich bestätigt wurden.\n\nPreise können variieren je nach:\n- Objektgröße\n- Zugänglichkeit\n- Arbeitsstunden\n- Artikelanzahl\n- Spezialausrüstung\n- Entsorgungskosten\n- Einlagerungsdauer\n- Verpackungsmaterial"
+      },
+      {
+        title: "3. Pflichten des Kunden",
+        content: "Kunden müssen genaue Angaben machen zu:\n- Adressen\n- Zugangsbeschränkungen\n- Aufzugsverfügbarkeit\n- Parkbeschränkungen\n- Artikelvolumen\n- Gefahrstoffen\n- zerbrechlichen / hochwertigen Gegenständen"
+      },
+      {
+        title: "4. Hochwertige Gegenstände",
+        content: "Wir transportieren hochwertige Gegenstände einschließlich Kunstwerken, Antiquitäten, Spezialmöbeln und empfindlichen Gegenständen.\n\nKunden müssen solche Gegenstände im Voraus deklarieren.\n\nEine Wertangabe kann für die Versicherung und Haftungsbeurteilung erforderlich sein."
+      },
+      {
+        title: "5. Haftung",
+        content: "Wir haften nach deutschem Recht für Schäden, die durch Vorsatz oder grobe Fahrlässigkeit verursacht wurden.\n\nWir haften nicht für:\n- nicht deklarierte zerbrechliche Gegenstände\n- Vorschäden\n- unsachgemäße Verpackung durch den Kunden\n- verborgene strukturelle Schwächen\n- höhere Gewalt\n- wetterbedingte Verzögerungen\n- nicht im Voraus mitgeteilte Zugangsbeschränkungen"
+      },
+      {
+        title: "6. Haftungsausschluss für die Reinigung",
+        content: "Wir sind nicht verantwortlich für:\n- normale Abnutzung\n- vorhandene Flecken\n- dauerhafte Verfärbungen\n- ungeeignete Materialien, die auf Reinigungsmittel reagieren"
+      },
+      {
+        title: "7. Einlagerung",
+        content: "Eingelagerte Gegenstände bleiben Eigentum des Kunden.\n\nEinlagerungsgebühren fallen gemäß den vereinbarten Bedingungen an.\n\nGesetzlich verbotene Gegenstände dürfen nicht eingelagert werden."
+      },
+      {
+        title: "8. Stornierung",
+        content: "Stornogebühren können anfallen, wenn Arbeitskräfte, Logistik oder reservierte Ausrüstung bereits eingeplant wurden."
+      },
+      {
+        title: "9. Zahlung",
+        content: "Die Zahlung ist gemäß den Rechnungsbedingungen fällig, sofern nicht anders vereinbart.\n\nBei verspäteter Zahlung können gesetzliche Gebühren anfallen."
+      },
+      {
+        title: "10. Anwendbares Recht",
+        content: "Es gilt deutsches Recht.\n\nGerichtsstand, soweit gesetzlich zulässig: Berlin.\n\nWir verwenden Cookies, um die Funktionalität der Website zu verbessern, Angebotsanfragen zu bearbeiten und die Sicherheit zu gewährleisten. Optionale Analyse-Cookies werden nur mit Ihrer Zustimmung verwendet."
+      }
+    ]
   }
 };

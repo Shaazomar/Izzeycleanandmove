@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import TrustBar from './components/TrustBar';
-import Features from './components/Features';
-import Philosophy from './components/Philosophy';
-import Protocol from './components/Protocol';
-import Booking from './components/Booking';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+import CookieBanner from './components/CookieBanner';
+import Home from './pages/Home';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
+import Impressum from './pages/Impressum';
+
 import Lenis from 'lenis';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -42,16 +44,20 @@ function App() {
 
   return (
     <LanguageProvider>
-      <div className="w-full relative selection:bg-accent/40 selection:text-dark">
-        <Navbar />
-        <Hero />
-        <TrustBar />
-        <Features />
-        <Philosophy />
-        <Protocol />
-        <Booking />
-        <Footer />
-      </div>
+      <Router>
+        <ScrollToTop />
+        <div className="w-full relative selection:bg-accent/40 selection:text-dark">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/impressum" element={<Impressum />} />
+          </Routes>
+          <Footer />
+        </div>
+        <CookieBanner />
+      </Router>
     </LanguageProvider>
   );
 }

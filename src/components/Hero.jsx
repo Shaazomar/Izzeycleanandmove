@@ -35,7 +35,7 @@ export default function Hero() {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 max-w-4xl text-dark pt-12 md:pt-20 pb-8 flex flex-col items-start justify-center">
+      <div className="relative z-10 max-w-4xl text-dark pt-24 md:pt-28 pb-8 flex flex-col items-start justify-center">
         
         {/* Transparent Logo Placed Tightly Above Title */}
         <div className="hero-elem mb-3 md:mb-5 w-24 sm:w-36 max-w-full">
